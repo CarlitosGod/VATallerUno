@@ -1,7 +1,0 @@
-cmake_minimum_required(VERSION 2.8)
-project( fourier )
-find_package( OpenCV REQUIRED )
-# add_executable( Ejecutable Codigo fuente *.cpp )
-add_executable( Fourier fourier.cpp  )
-target_link_libraries( Fourier  ${OpenCV_LIBS} )
-
